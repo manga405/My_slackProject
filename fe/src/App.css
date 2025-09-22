@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1d19317e;
+}
+
+::-webkit-slider-thumb:hover {
+    background: #1d1931;
+}
+
+
+
+/* Add these styles to your App.css or a dedicated stylesheet */
+.progress-bar-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 5px;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
