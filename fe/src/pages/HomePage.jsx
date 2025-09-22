@@ -94,7 +94,7 @@ const HomePage = () => {
   //   if (status == STATUS.ON) {
   //     setChannels(data);
   //   }
-  // }, [])asdfasdf
+  // }, [])asdfasdfasdfasdf
   const onReadChannels = (status, data) => {
     if (status == STATUS.ON) {
       setChannels(data);
